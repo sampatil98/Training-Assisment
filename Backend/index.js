@@ -4,6 +4,7 @@ require("dotenv").config();
 
 const {connection}=require("./config/db");
 const {UserRouter}=require("./routes/user.routes");
+const { adminRoutes } = require("./routes/admin.routes");
 
 const app=express();
 
@@ -11,6 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use("/user",UserRouter);
+app.use("/admin",adminRoutes);
 
 app.listen(process.env.port,async()=>{
     try {
