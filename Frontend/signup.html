@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">Training- <span>Portal</span></a></div>
+        <div class="buttons">
+            <a href="login.html"><button class="login-button">Login</button></a>
+            <a href="signup.html"><button class="create-account-button">Signup</button></a>
+        </div>
+    </nav>
+    
+    <div id="main_div">
+        <div id="signup_div">
+            <h3>Create account</h3>
+
+            <form id="signup_form">
+                <p>First name</p>
+                <input id="firstname"  type="string" required>
+
+                <p>Lastname</p>
+                <input id="lastname"  type="string" required><br>
+
+                <p>Email Address</p>
+                <input id="email"  type="email" required>
+
+                <p>Password</p>
+                <p id="pass_msg">(Your password should be atlist 8 characters)</p>
+                <input id="password"  type="password" required>
+
+                <p>Phone</p>
+                <input id="phone"  type="number" required><br>
+
+                <p>Department</p>
+                <select name="" id="department">
+                    <option value="dep1">dep1</option>
+                    <option value="dep2">dep2</option>
+                    <option value="dep3">dep3</option>
+                    <option value="dep4">dep4</option>
+                    <option value="dep5">dep5</option>
+                    <option value="dep6">dep6</option>
+                </select>
+
+                <input type="submit" id="signup_btn" value="CREATE AN ACCOUNT">
+
+            </form>
+        </div>
+        <div id="signup_side_div">
+            <div class="sidediv_class">
+                <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw35ca6cf0/images/Guarantee.svg" alt="">
+                <div>
+                    <h5>6 MONTHS GUARANTEE</h5>
+                    <P>Exchange or return your purchase up to 6 months after receipt</P>
+                </div>
+            </div>
+            <div class="sidediv_class">
+                <img src="https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwb801377e/images/Security.svg" alt="">
+                <div>
+                    <h5>100% SECURE</h5>
+                    <P>Shopping is secure with Charles Trywhitt</P>
+                </div>
+            </div>
+            <div>
+                <h3>HAVE AN ACCOUNT</h3>
+                <a href="login.html"><button id="login_btn">CLICK HERE TO LOG IN</button></a>
+            </div>
+           
+        </div>
+        
+
+
+    </div>
+    
+</body>
+</html>

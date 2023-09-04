@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+span{
+    color: turquoise;
+}
+.logo a{
+    text-decoration: none;
+    color:white ;
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+.login-button,
+.create-account-button {
+    padding: 10px;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* ............................. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+#question{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#options{
+    display: flex;
+    flex-direction: column;
+}
+.optionsbtn{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#nextButton{
+    padding: 15px;
+    width: 25%;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+#progress{
+    margin-top: 20px;
+}
+#timer{
+    float: right;
+    color: red;
+}

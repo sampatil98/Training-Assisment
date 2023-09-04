@@ -1,0 +1,96 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../img/uf1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color:white ;
+}
+span{
+    color: turquoise;
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.login-button,
+.create-account-button {
+    padding: 10px;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main-content {
+    margin-top: 10%;
+}
+
+.info-section,
+.skill-test-section {
+    
+    background-color: aliceblue;
+    padding: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.login-btn{
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttonsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 5px;
+    }
+}

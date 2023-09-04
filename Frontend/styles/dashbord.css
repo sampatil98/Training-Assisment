@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+span{
+    color: turquoise;
+}
+.logo a{
+    text-decoration: none;
+    color:white ;
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+.login-button,
+.create-account-button {
+    padding: 10px;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*.................... sidebar................... */
+#main{
+    display: flex;
+}
+#sidebar{
+    width: 20%;
+    border-right: 2px double gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.eachbtn{
+    width: 100%;
+    padding: 15px;
+    color: black;
+    background-color: rgb(80, 238, 253);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 40px 0px;
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+.eachbtn:hover{
+    background-color: rgb(29, 138, 148);
+}
+#sidebar>div>div{
+    
+    border-bottom: 1px solid gray ;
+}
+#mainsection{
+    width: 100%;
+}
+#container{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    
+    /* margin-top: 30px; */
+}
+#title-video{
+    width: fit-content;
+    margin: auto;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+}
